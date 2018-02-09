@@ -90,5 +90,7 @@ def file_to_dict(file_name, year, amount):
     map_creator(film_dict)
     return 1
 
+year = int(input('Enter year for the map: '))
+amount = int(input('Enter amount of films for the map: '))
+file_to_dict('locations.list', year, amount)
 
-print(file_to_dict('locations.list', 1895, 10))
